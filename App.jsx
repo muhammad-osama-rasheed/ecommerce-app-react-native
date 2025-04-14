@@ -1,11 +1,14 @@
-import {View, Text} from 'react-native';
 import React from 'react';
+import './global.css';
+import MainNavigator from './src/navigation/MainNavigator';
+import Toast from 'react-native-toast-message';
 
 const App = () => {
   return (
-    <View>
-      <Text>App</Text>
-    </View>
+    <>
+      <MainNavigator />
+      <Toast />
+    </>
   );
 };
 
