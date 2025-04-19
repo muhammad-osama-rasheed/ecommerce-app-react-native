@@ -50,9 +50,9 @@ const ProductsCard = ({item}) => {
 
       <View
         style={{
-          width: scale(180),
-          height: scale(180),
-          marginRight: moderateScale(-58),
+          width: scale(150),
+          height: scale(150),
+          marginRight: moderateScale(-50),
         }}>
         <Image
           style={{
